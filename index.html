@@ -4,9 +4,191 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio maquetado</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7163bc3537.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="ASSETS/css/styles.css">
 </head>
 <body>
-    
-</body>
+  <!-- Barra de nav -->
+    <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="ASSETS/Img/APLogo-20-20.png" alt="Bootstrap" width="120" height="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>           
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item"><a href="https://www.instagram.com/giova_giannoni/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+            <li class="list-group-item"><a href="https://github.com/GiovanniGiannoni" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+            <li class="list-group-item"><a href="https://www.facebook.com/giovanni.giannoni.756/" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+            <li class="list-group-item">
+              <a href="Login.html"><i class="fa-solid fa-user-lock fa-2xl" type="button" >             
+                <!-- Button trigger modal -->                       
+              </i> </a>       
+            </li>
+          </ul>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog"> 
+              <div class="modal-content">      
+                <div class="modal-header">       
+                  <h5 class="modal-title" id="exampleModalLabel">LOGIN</h5>        
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>     
+                </div>      
+                <div class="modal-body">       
+                  <div class="mb-3 row">
+                    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                  </div>   
+                </div>      
+                <div class="modal-footer">                                
+                  <button type="button" class="btn btn-primary">Iniciar Sesion</button>      
+                </div>    
+              </div> 
+            </div>
+          </div>       
+        </div>   
+      </nav>
+    <!-- Aca puse el banner -->
+      <div class="banner"> 
+        <img src="ASSETS/Img/banner.jpeg" class="d-block" alt="...">
+      </div>
+      <!-- Esta es la foto de perfil -->
+      <img src="ASSETS/Img/banner 2 (1).jpeg" class="rounded-circle w-25" alt="..." >
+      <!-- Aca dividi en secciones -->
+
+        <section id="perfil" class="perfil">
+          <div class="container text-center">
+            <div class="row d-flex justify-content-center">
+              <div class="col-3">               
+                <h3>Giovanni Giannoni</h3>
+                
+                
+              </div>
+              <div class="col-9 diplo"> 
+                <h2>Full Stack Developer Jr</h2>          
+              </div>
+
+          </div>
+        </section>
+        <section id="Acerca de mi" class="about">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-4 col-sm-12 col-md-4">
+                <br> <br>
+                <h2>Acerca de mi</h2>
+              </div>
+              <div class="col-6 mt-4 ">                            
+                <h5>Tengo 18 años termine mi secundario en el año 2021, y estoy estudiando con muchas ganas programacion.</h5>
+                <h5>Me concidero una persona curiosa,perseverante y deportista.Practico Rugby desde hace tiempo,actualmente estoy en la M19 de Los Tordos Rugby Club y toco la guitarra desde los 12 años. </h5>
+                <h5>Desde hace 2 años me empezo a llamar la atencion la programacion y me inscribi en el curso de argentina programa con la intencion de convertirme en un Full Stack Jr.<br>    <br><br>    <br> </h5>
+              </div>
+              <div class="col-2"></div>
+            </div>
+          </div>
+        </section>
+        <section id="Experiencia" class="experiencia">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-4 col-sm-12 col-md-4">
+                <h2>Experiencia Laboral</h2>
+              </div>
+              <div class="col-6 mt-4">
+                               
+                <h5>Trabajo como administrador en el establecimiento ganadero de mi familia donde la principal funcion es la produccion de terneros y hace un año comence un microemprendimiento de ropa donde vendo remeras,jeans,camperas y buzos(de la marca tommy hilfiger,hollister,calvin klein,abercrombie y Van Como Piña).<br>    <br><br>    <br></h5>
+              </div>
+              <div class="col-2"></div>
+            </div>
+          </div>
+        </section>
+        <section id="Educacion" class="educacion">           
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-4 col-sm-12 col-md-4"> 
+                <br> <br>            
+                <h2>Educacion</h2>
+              </div>
+              <div class="col-4 mt-4">
+                <h1> </h1>                
+                <h5>Termine el secundario en el año 2021 por lo que el unico que curso que realice es el de #SéProgramar de Argentina Programa.</h5>
+                <h5>Ahora estoy haciendo curso de #YoProgramo de Argentina Programa y un curso de GIT y GITHUB de la Academia TodoCode </h5>
+              </div>
+              <div class="col-4">
+                <img src="ASSETS/Img/argentina_programa_2022.jpg" class="titulo" alt="...">
+              </div>
+            </div>
+          </div>      
+        </section>
+        <section id="Habilidades" class="habilidades">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-4 col-sm-12 col-md-4">
+                <br> <br> 
+                <br> <br>
+                <h2>Hard & Soft Skills</h2>
+              </div>
+              <div class="col-8 mt-4 col-sm-12 col-md-4">               
+                <h4>HTML</h4>
+                <div class="progress">
+                  <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h4>CSS</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-label="Danger example" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h4>JavaScript</h4>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" aria-label="Danger example" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h4>Pseint</h4>
+                <div class="progress">
+                  <div class="progress-bar bg-info" role="progressbar" aria-label="Danger example" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h4>Ingles</h4>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>              
+            </div>
+          </div>
+        </section>
+        <section id="Proyectos" class="Proyectos">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-12">
+                <br> <br>
+                <h2>Proyectos</h2>
+                <br> <br>
+                <h5>Soy nuevo en pregramacion por lo que hasta ahora el unico proyecto que hice es el maquetado de el modulo 2.</h5>
+                <br> <br>
+                
+              </div>           
+            </div>
+          </div>
+        </section>
+        <!-- Footer -->
+    <footer class="bg-black text-white text-center fs-6">
+      <div class="pt-3">
+        <p>&copy Copyright Giovanni Giannoni - 2022</p>
+      </div>
+    </footer>
+        
+
+
+      
+      <!-- JavaScript Bundle with Popper -->    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    
+</body> 
 </html>

@@ -5,3 +5,7 @@ Para subir git push -u origin
 Para ver el estado git status
 git pull
 cambios
+
+PAGINAS 
+pexels (para buscar fotos)
+iloveimg (para editar fotos)

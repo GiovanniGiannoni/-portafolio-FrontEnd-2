@@ -1,0 +1,153 @@
+
+body{
+    background-image: url(../Img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    max-width: 100%;
+}
+/* Barra NAVBAR */
+.navbar.navbar-expand-lg.bg-danger{
+    background-color: rgb(0, 0, 0) !important;
+}
+i.fa-brands.fa-facebook.fa-2xl{
+    color: rgb(255, 255, 255);
+}
+i.fa-brands.fa-facebook.fa-2xl:hover{
+color: blue;
+transform: scale(1.25);
+}
+i.fa-brands.fa-github.fa-2xl{
+    color: rgb(255, 255, 255);
+}
+i.fa-brands.fa-github.fa-2xl:hover{
+    transform: scale(1.25);
+}
+i.fa-brands.fa-instagram.fa-2xl{
+    color: rgb(255, 255, 255);
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color: rgb(218, 76, 163);
+    transform: scale(1.25);
+}
+i.fa-solid.fa-user-lock.fa-2xl{
+    color: rgb(255, 255, 255);
+}
+i.fa-solid.fa-user.fa-2xl{
+    color: rgb(255, 255, 255);
+}
+i.fa-solid.fa-user.fa-2xl:hover {
+    color: rgb(102, 102, 102);
+    transform: scale(1.25);
+}
+i.fa-solid.fa-user-lock.fa-2xl:hover{
+    color: rgb(102, 102, 102);
+    transform: scale(1.25);
+}
+.list-group{
+    --bs-list-group-bg: transparent; 
+}
+.list-group{
+    --bs-list-group-border-color: transparent;
+}
+.list-group{
+    --bs-list-group-color: rgb(248, 248, 248);
+}
+.navbar-nav{ 
+    --bs-nav-link-color:aliceblue;
+} 
+.navbar-nav{
+    --bs-nav-link-hover-color: aliceblue;
+}
+.banner {
+    max-width: 100%;
+    margin-top: -1em;
+    max-height: 80%;
+    margin-bottom: 0em;
+}
+.rounded-circle.w-25{
+    position: absolute;
+    z-index: 1;
+    background-color: floralwhite;
+    height: auto;
+    width: 15rem !important;
+    margin-top: -8rem;
+    margin-left: 11rem;
+}
+section.panel {
+    margin-top: 9rem;
+}
+.col-3{
+    margin-top: 7em;
+
+}
+.col-4{
+    margin-top: 2em;
+}
+.col-1.boton-guardado{
+    margin-top: 5em;
+}
+.d-block{
+    width: 100%;
+    height: 560px;
+}
+.titulo{
+    width: 400px;
+    height: 300px;
+}
+.Login{
+    height: 80vh;
+}
+.formulario-login{
+    margin-top: 15%;
+}
+.list-group-item{
+    color: rgb(253, 252, 252);
+}
+.rounded-circle.ing-fluid.perfil{
+    height: 20vh;
+    margin-top: 10%;
+}
+.link{
+    text-decoration: none;
+
+}
+.barra-lateral{
+    display: block;
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
+    max-height: 100%;
+    margin-top: 0;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.admin{
+    color: aliceblue;
+}
+.tab-pane{
+    margin-top: 0%;
+}
+a {
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 800px) {
+    .col-9.diplo{
+        width: 100%;
+    }
+    .col-6.mt-4 {
+        width: 100%;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .d-block{
+        width: 100%;
+    }
+    .rounded-circle.w-25{
+        width: 100%;
+    }
+    .col-3{
+        width: 100%; 
+    }
+    
+}
